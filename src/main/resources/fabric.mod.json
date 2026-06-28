@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "create_fly_dyeable_chains",
+  "version": "${version}",
+  "name": "Create Dyeable Chains",
+  "authors": [
+    "cputnam-a11y"
+  ],
+  "contributors": [
+    "AkashiiKun"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.cputnama11y.createflydyeablechains.CreateFlyDyeableChains"
+    ]
+  },
+  "mixins": [
+    "create_fly_dyeable_chains.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
